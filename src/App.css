@@ -1,0 +1,208 @@
+.footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 10vh;
+  height: 60vh;
+  text-align: center;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  color: #fecd2a;
+}
+
+.cat-card {
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.title {
+  display: inline;
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+input[type=email], input[type=password], input[type=text] {
+  height: 23px;
+  border-radius: 50px;
+  width: 60vw;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.elements-cards {
+  border-radius: 20px;
+  background-color: #fecd2a;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.recipes-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards {
+  margin: 2px;
+}
+
+.cards img {
+  border-radius: 20px;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.login-btn {
+  background-color: #fecd2a;
+  width: 20vw;
+  height: 5vh;
+  margin: 10px auto;
+}
+
+button {
+  border: none;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.details-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-details {
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  width: 60vw;
+  height: 30vh;
+}
+
+.recomended {
+  margin: 20px auto;
+}
+
+video {
+  margin: auto;
+}
+
+.recomended-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.yelloy {
+  color: #fecd2a;
+}
+
+.lis {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.lis span {
+  text-align: center;
+  margin: 0;
+  font-size: x-large;
+}
+
+.lis {
+  margin: 10;
+  height: 5vh;
+  width: 40vw;
+  font-size: xx-small;
+}
+
+.p-div {
+  font-size: smaller;
+  font-style: italic;
+}
+
+.render-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.cards-render {
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.cards-render img {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6vw;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.title-div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-button {
+  margin: 10px auto;
+  height: 5vh;
+  color: black;
+  background-color: white;
+  border: 1px solid #fecd2a;
+}
